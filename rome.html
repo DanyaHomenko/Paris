@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-h{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: bisque;
+        }        
+        body{
+            margin: 0;
+        }
+        .contact{
+            background-color: rgb(253, 205, 146);
+            border-radius: 30px;
+            padding: 0 5px;
+        }
+        .contact a{
+            text-decoration: none;
+            color: rgb(255, 83, 52);
+        }
+        .flex-h img{
+            width: 50px;
+            margin: 0 10px;
+        }
+        footer{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        .text{
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body ng-app>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <header class="flex-h">
+        <img width="64" src="travel.png" alt="">
+        <h1>Rome</h1>
+        <div class="contact"><a href="#"><h2>Contact us</h2></a></div>
+    </header>
+
+    <h2>Info</h2>
+    <p>Rome is the capital of Italy. It is located on the Tiber River. The population of the city is about 3 million people.</p>
+    <p>Rome is an ancient city. It was founded more than 2.5 thousand years ago. It was the capital of the Roman Empire in the past.</p>
+    <p>There are many attractions in Rome. Tourists from all over the world come to see the Colosseum, the Pantheon, the Roman Forum and other architectural monuments.</p>
+    <p>The Vatican is located in Rome. Interestingly, the Vatican is a separate small state.</p>
+    <p>Tourists are attracted not only by the architecture of the city, but also by Italian cuisine. There are many cafes, restaurants and pizzerias in Rome. There is even a Pasta Museum.</p>
+
+    <h2>Translation(Перевод)</h2>
+    <p>Рим - столица Италии. Он расположен на реке Тибр. Население города - около 3 миллионов человек.</p>
+    <p>Рим - древний город. Он был основан более 2,5 тысяч лет назад. Когда-то он был столицей Римской империи.</p>
+    <p>В Риме множество достопримечательностей. Туристы со всего мира приезжают, чтобы посмотреть на Колизей, Пантеон, Римский форум и другие памятники архитектуры.</p>
+    <p>В Риме находится Ватикан. Интересно, что Ватикан является отдельным маленьким государством.</p>
+    <p>Туристов привлекает не только архитектура города, но и итальянская кухня. В Риме много кафе, ресторанов и пиццерий. Есть даже Музей макарон.</p>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/se6c-le9Mgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <footer class="flex-h">
+        <h3>Information from the Internet</h3>
+        <div>
+            <img src="instagram.png" alt="">
+            <img src="telegram.png" alt="">
+            <img src="facebook.png" alt="">
+        </div>
+        <h2>&copy; DanyaHomenko 2022</h2>
+    </footer>
+</body>
+</html>
